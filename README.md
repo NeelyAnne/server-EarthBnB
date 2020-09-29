@@ -30,7 +30,7 @@ Note: You must have installed Java (version 8 or higher), Maven (can be used as 
 
 (5.) To see the raw Json while the server is running visit "http://localhost:8080/all/products/" or "http://localhost:8080/1"
 
-![alt text](https://github.com/Quaran-Team/client-Amazin/blob/master/amazinscreen.JPG "Screen shot from the Amazin' App mock e-commerce site")
+![alt text](https://github.com/NeelyAnne/client-EarthBnB/blob/master/landing.png "Landing Page")
 
 ---
 
