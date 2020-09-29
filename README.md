@@ -1,37 +1,41 @@
-## Earth B n B Project
+  # **EarthBnB - Server (Rental Site Clone)**
 
-# by TalentPath Quaran-team!
+This is the server side of our EarthBnB project created by Talent Path's 'Quaran-Team' of full stack developers located in Atlanta, GA and Houston, TX.
 
-We have endeavored to re-create an online vacation rental like application.
+The goal of this project was to practice weekly agile sprints by creating an e-commerce product page(s) for 20 items in a very similar theme to that of the commonly known retail site Amazon. Each team member made contributions to the client, server, and database of the project in order to understand how a full stack application functions.
 
-Using Java - Spring Boot Server tied to a MySql Database for our data API. 
+The client repository can be found here _-_ GitHub Repo = https://github.com/NeelyAnne/client-EarthBnB .
 
-To run locally after cloning or forking - you will need Java 10 or higher a code editor or IDE,
-Maven, Flyway, and MySql installed.
+We created the server utilizes Java Spring Boot for bean creation, Maven for our dependencies, and FlyWay to manage our database migrations. 
 
-Change the username and password in the application.properties file under the resources folder if your MySql username and password differ.
+The server is not currently deployed anywhere but can be cloned and run in our preferred IDE, IntelliJ. This will also require MySQL to function.
 
-____
+---
 
-To start the server app:
+To run it locally:
 
-'mvn spring-boot:start'
+Note: You must have installed Java (version 8 or higher), Maven (can be used as mvn or mvnw), and MySQL and MySQL Workbench
 
-If updates have been made to the sql seed files a migration clean should be preformed. This involves running the commands
+(1.) Clone the repository
 
-'mvn flyway:clean'
+(2.) Open the project and make sure to cd into the folder named API within the repository (This can be within your command line interface or within IntelliJ.)
 
-followed by
+(3.) Open Workbench and under the username and password 'root', create a database called 'earthdb'. This will allow for storage of information found in your sql migration files in the server repository.
 
-'mvn clean'
+(4.) Back in the command line or IntelliJ, run the command 'mvn(w) spring-boot:start'
 
-before starting the server.
+ - If you make updates to the sql seed files, a 'mvn(w) clean' and 'mvn(w) flyway:clean' should be preformed before the server is started to ensure there is not conflict of migrations.
 
-____
-The Quaran-Team! consists of:
+ - If you get an error command not found MVN you will need to download and install it locally which can be done here: https://maven.apache.org/download.cgi
 
-- Adam Oliveras
-  - https://github.com/Aoliveras
+(5.) To see the raw Json while the server is running visit "http://localhost:8080/all/products/" or "http://localhost:8080/1"
+
+![alt text](https://github.com/Quaran-Team/client-Amazin/blob/master/amazinscreen.JPG "Screen shot from the Amazin' App mock e-commerce site")
+
+---
+
+**The Quaran-Team! consists of:**
+
 - Bilikis Orulebaja
   - https://github.com/borulebaja
 - Brandt Campbell
@@ -46,3 +50,28 @@ The Quaran-Team! consists of:
   - https://github.com/NeelyAnne
 - Trevor Taylor
   - https://github.com/Trevis42
+
+**Led by management team:**
+
+Fred Zirdung and Jothi Nedungadi
+
+## **Languages/Technologies:**
+
+- Java
+- Spring-Boot
+- Maven
+- Fly Way
+- PostgreSQL
+- Pg-Admin
+- Lombok
+- Apache
+- Velocity
+
+---
+
+All rights reserved by Talent Path 2020
+a division of Genuent.
+
+https://talentpath.com/what-we-do/
+
+https://genuent.com/
