@@ -61,8 +61,8 @@ Fred Zirdung and Jothi Nedungadi
 - Spring-Boot
 - Maven
 - Fly Way
-- PostgreSQL
-- Pg-Admin
+- MySQL
+- MySQL Workbench
 - Lombok
 - Apache
 - Velocity
